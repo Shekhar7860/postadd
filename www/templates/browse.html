@@ -1,5 +1,37 @@
-<ion-view view-title="Browse">
-  <ion-content>
-    <h1>Browse</h1>
-  </ion-content>
+<ion-view title="Post Job">
+    <ion-content padding="true" class="has-header">
+       <div class="list">
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Profile</span>
+    <input type="text" placeholder="Profile">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Location</span>
+    <input type="text" placeholder="Location">
+  </label>
+  <label class="item item-input item-floating-label">
+    <span class="input-label">Vacancies</span>
+    <input type="number" placeholder="Vacancies">
+  </label>
+</div>
+ <span class="input-label">Salary Range</span>
+<select style='width:100% ; height : 50px' id='select'>
+    <option> 5000-10000 </option>
+    <option>10000-20000 </option>
+    <option>20000-30000 </option>
+    <option>30000-40000 </option>
+    <option>40000-50000 </option>
+</select>
+    <span class="input-label">Shift</span>
+<select style='width:100% ; height : 50px' id='select'>
+    <option> Day </option>
+    <option>Night </option>
+     <option>Rotational</option>
+
+</select>
+
+<button class="button button-full button-royal">
+  Submit
+</button>
+    </ion-content>
 </ion-view>
