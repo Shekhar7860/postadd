@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "632816094536",
+    "firebase_url": "https://postjob-652ce.firebaseio.com",
+    "project_id": "postjob-652ce",
+    "storage_bucket": "postjob-652ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:632816094536:android:e43b8f53fd43c31a",
+        "android_client_info": {
+          "package_name": "com.jobpaanaaasanhain"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "632816094536-2epem6773r9j24to98rtedjqa8k7vjme.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSLH6-l0JV4Y9m2gIvPM8AnELd3aGlXcc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "632816094536-2epem6773r9j24to98rtedjqa8k7vjme.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

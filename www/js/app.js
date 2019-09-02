@@ -8,6 +8,9 @@ angular.module('starter', ['ionic', 'starter.controllers'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
+   
+     
+  
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs).
     // The reason we default this to hidden is that native apps don't usually show an accessory bar, at
@@ -40,7 +43,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/search',
     views: {
       'menuContent': {
-        templateUrl: 'templates/search.html'
+        templateUrl: 'templates/search.html',
+        controller : 'searchCtrl'
       }
     }
   })
@@ -74,5 +78,5 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
+  $urlRouterProvider.otherwise('/app/search');
 });

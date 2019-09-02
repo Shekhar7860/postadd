@@ -1,5 +1,36 @@
-<ion-view view-title="Search">
+
+<ion-view view-title="Jobs">
+    <ion-nav-buttons side="right">
+        <button class="button button-icon button-clear ion-plus" ng-click="createjob()">
+        </button>
+      </ion-nav-buttons>
   <ion-content>
-    <h1>Search</h1>
+      <ion-item ng-repeat="job in jobs" >
+      <div class = "card">
+          <div class = "item item-avatar">
+             <h2>Card - {{$index}}</h2>
+          </div>
+       
+          <div class = "item item-body">
+            Profile - {{job.profile}}
+            <br>
+            <div style="padding-top:5px">
+            Location -  {{job.location}}
+          </div>
+          <br>
+          <div style="padding-top:5px">
+          Salary - {{job.salary}}
+          </div>
+          <br >
+          <div style="padding-top:5px">
+          Shift - {{job.shift}}
+          </div>
+          <br >
+          <div style="padding-top:5px">
+          Vacancies - {{job.vacancies}}
+          </div>
+          </div>
+       </div>
+      </ion-item>
   </ion-content>
 </ion-view>
